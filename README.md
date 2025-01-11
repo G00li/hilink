@@ -1,48 +1,60 @@
-# README do Projeto Hilink
+# Hilink
 
-## Descrição do Projeto
+![Status do Projeto](https://img.shields.io/badge/Status-Completo-blue)
 
-O **Hilink** é um aplicativo de UX/UI voltado para camping, que visa proporcionar uma experiência única para os amantes da natureza. Com funcionalidades como mapas offline e agendamento de aventuras, o aplicativo é ideal para quem busca explorar novos locais sem se preocupar em se perder.
+Hilink é um aplicativo de UX/UI voltado para camping, desenvolvido para proporcionar uma experiência única aos amantes da natureza. Com funcionalidades como mapas offline e agendamento de aventuras, o aplicativo é ideal para quem busca explorar novos locais sem se preocupar em se perder.
 
-![Hilink Page](/images/Hilink_1.png)
-![Hilink Views](/images/Hilink_2.png)
+![Hilink Page](./images/Hilink_1.png)
+![Hilink Views](./images/Hilink_2.png)
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - **Next.js**: Framework React para construção de aplicações web.
 - **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
 - **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
 
-## Responsividade
+## 🎨 Animações
 
-O aplicativo foi desenvolvido com foco na responsividade, utilizando classes do Tailwind CSS para garantir que a interface se adapte a diferentes tamanhos de tela, desde dispositivos móveis até desktops. Isso proporciona uma experiência de usuário consistente em todas as plataformas.
+O projeto utiliza animações para melhorar a experiência do usuário, tornando a navegação mais intuitiva e agradável. As animações são implementadas de forma a não comprometer o desempenho do aplicativo.
 
-## Instalação
+## 📱 Responsividade
 
-Para instalar e executar o projeto localmente, siga os passos abaixo:
+A interface do Hilink foi desenvolvida com foco na responsividade, garantindo uma experiência consistente e adaptada em dispositivos de diferentes tamanhos de tela, desde desktops até smartphones.
 
-1. **Clone o repositório**:
-```
-    git clone https://github.com/seu-usuario/hilink.git
-```
-    
-2. **Navegue até o diretório do projeto**:
+## 📦 Como Executar o Projeto
+
+### Pré-requisitos
+
+- **Node.js**: Certifique-se de ter o Node.js instalado na versão 14 ou superior.
+- **npm**: O npm é necessário para gerenciar as dependências do projeto.
+
+### Passos para execução
+
+1. **Clonar o repositório**:
+
+   ```bash
+   git clone https://github.com/G00li/hilink.git
     ```
+
+    2. **Navegar até a pasta do projeto**:
+    ```bash
     cd hilink
     ```
-    
-3. **Instale as dependências**:
-    ```
+
+3. **Instalar as dependências**:
+    ```bash
     npm install
     ```
-    
-4. **Inicie o servidor de desenvolvimento**:
-    ```
+4. **Iniciar o servidor de desenvolvimento**:
+    ```bash
     npm run dev
     ```
+
+5. **Acessar a aplicação**:
     
-5. **Acesse o aplicativo**: Abra o navegador e vá para 
-    ```
-    http://localhost:3000
-    ```
+    Abra o navegador e vá para http://localhost:3000 para visualizar a aplicação em execução.
+
+## 📄 Licença
+Este projeto está sob a licença MIT.
+Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
